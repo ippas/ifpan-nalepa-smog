@@ -20,5 +20,5 @@ cat sample-list.txt | head -2 | xargs -I {} docker run --rm -v $PWD:/data zlskid
 ```
 5. sam to bam
 ```
-docker run -d --rm -v $PWD:/data zlskidmore/samtools:1.9 samtools sort -O bam -T /data/$FILE.sort -o /data/$FILE.bam /data/$FILE.sam
+cat sample-list.txt | head -6 | xargs -I {} docker run -d --rm -v $PWD:/data zlskidmore/samtools:1.9 samtools sort -O bam -T /data/$FILE.sort -o /data/{}.bam /data/{}.sam
 ```
