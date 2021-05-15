@@ -7,7 +7,9 @@ echo $RNA_FILES | tr -s ' \011' '\012' | head -n 20 | tail -n 10 | xargs -i dock
 ```
 
 2. MultiQC to generate a full report:
-
+```
+docker run --rm -v $PWD:/data ewels/multiqc:latest multiqc /data -o /data
+```
 
 3. Mus musculus reference genomes was downloaded from Ensmbl (release 102), and indexed with Hisat2:
 
