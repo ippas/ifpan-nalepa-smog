@@ -29,3 +29,22 @@ cat sample-list.txt | head -6 | xargs -I {} docker run -d --rm -v $PWD:/data zls
 ```
 cat sample-list.txt | head -6 | xargs -I {} docker run -d --rm -v $PWD:/data octavianus90/cufflinks_final:latest cuffquant -o /data/{}.cuant /data/Mus_musculus.GRCm38.102.gtf /data/{}.bam
 ```
+
+
+### Fragments, mateusz analysis
+
+Preparation of marker genes:
+
+The marker genes were [taken from](http://mousebrain.org/celltypes/?fbclid=IwAR2uLbp0fYm2Eaet7l_vz9OYeoTIV_qByP6eEddBvwIx6-55GKGnHu5TaiQ), and extract need information:
+
+```
+cat gene-markes | 
+    cut -f3,5 | 
+    tail +2  | 
+    grep -P 'Excitatory|Inhibitory|Microglia|astrocytes' | 
+    awk -F"\t" 'BEGIN {OFS="\t"} {gsub(" ", "-", $1); print}'| 
+    sed 's/ /\t/g' |  
+    awk -F"\t" -v OFS="\t" '{print $1, $2"\n"$1, $3"\n"$1, $4"\n"$1, $5"\n"$1, $6"\n"$1, $7"\n"$1, $8}' | 
+    awk '$2!=""' 
+    
+    cat gene-markes | cut -f3,5,7 | tail +2 | grep -P 'Excitatory|Inhibitory|Microglia|astrocytes' | awk -F"\t" -v OFS="\t" '{print $1, $3, $2}' | awk -F"\t" 'BEGIN {OFS="\t"} {gsub(" ", ";", $1); print}' | awk -F"\t" 'BEGIN {OFS="\t"} {gsub(" ", ";", $2); print}' | sed 's/ /\t/g' | awk -F"\t" -v OFS="\t" '{print $1, $2, $3"\n"$1, $2, $4"\n"$1, $2, $5"\n"$1, $2, $6"\n"$1, $2,  $7"\n"$1, $2, $8"\n"$1, $2,  $9}' | awk '$3!=""' | grep -P "Cortex|CNS|Hypothalamus" | sed 's/;/ /g'
