@@ -1,0 +1,71 @@
+symbol	description	region	marker
+TEGLU1	Excitatory neurons, cerebral cortex	Cortex	Myl4
+TEGLU1	Excitatory neurons, cerebral cortex	Cortex	Cpne4
+TEGLU3	Excitatory neurons, cerebral cortex	Cortex	Rprm
+TEGLU3	Excitatory neurons, cerebral cortex	Cortex	Rell1
+TEGLU2	Excitatory neurons, cerebral cortex	Cortex	Cplx3
+TEGLU2	Excitatory neurons, cerebral cortex	Cortex	Nxph3
+TEGLU2	Excitatory neurons, cerebral cortex	Cortex	Hs3st4
+TEGLU20	Excitatory neurons, cerebral cortex	Cortex	Sulf1
+TEGLU20	Excitatory neurons, cerebral cortex	Cortex	Prss12
+TEGLU11	Excitatory neurons, cerebral cortex	Cortex	Igfbp6
+TEGLU11	Excitatory neurons, cerebral cortex	Cortex	C130074G19Rik
+TEGLU12	Excitatory neurons, cerebral cortex	Cortex	Nr4a2
+TEGLU12	Excitatory neurons, cerebral cortex	Cortex	Col24a1
+TEGLU12	Excitatory neurons, cerebral cortex	Cortex	Oprk1
+TEGLU10	Excitatory neurons, cerebral cortex	Cortex	Hs3st2
+TEGLU10	Excitatory neurons, cerebral cortex	Cortex	Vipr1
+TEGLU10	Excitatory neurons, cerebral cortex	Cortex	Pde1a
+TEGLU9	Excitatory neurons, cerebral cortex	Cortex	Dkkl1
+TEGLU9	Excitatory neurons, cerebral cortex	Cortex	Galntl6
+TEGLU8	Excitatory neurons, cerebral cortex	Cortex	Krt12
+TEGLU8	Excitatory neurons, cerebral cortex	Cortex	Tcap
+TEGLU7	Excitatory neurons, cerebral cortex	Cortex	A830009L08Rik
+TEGLU7	Excitatory neurons, cerebral cortex	Cortex	Gm12371
+TEGLU7	Excitatory neurons, cerebral cortex	Cortex	Lamp5
+TEGLU6	Excitatory neurons, cerebral cortex	Cortex	Tshz2
+TEGLU6	Excitatory neurons, cerebral cortex	Cortex	Ddit4l
+TEGLU13	Excitatory neurons, cerebral cortex	Cortex	Wfs1
+TEGLU13	Excitatory neurons, cerebral cortex	Cortex	RP24-134N2.1
+TEGLU13	Excitatory neurons, cerebral cortex	Cortex	Vwc2l
+TEGLU14	Excitatory neurons, cerebral cortex	Cortex	Cbln1
+TEGLU14	Excitatory neurons, cerebral cortex	Cortex	Ntsr1
+TEGLU5	Excitatory neurons, cerebral cortex	Cortex	Rxfp1
+TEGLU5	Excitatory neurons, cerebral cortex	Cortex	Fermt1
+TEGLU16	Excitatory neurons, cerebral cortex	Cortex	RP23-231J2.1
+TEGLU16	Excitatory neurons, cerebral cortex	Cortex	Dbpht2
+TEGLU16	Excitatory neurons, cerebral cortex	Cortex	Cdkl4
+TEGLU15	Excitatory neurons, cerebral cortex	Cortex	Scube1
+TEGLU15	Excitatory neurons, cerebral cortex	Cortex	Tekt5
+TEGLU17	Excitatory neurons, cerebral cortex	Cortex	Trim54
+TEGLU17	Excitatory neurons, cerebral cortex	Cortex	Slc30a3
+TEGLU17	Excitatory neurons, cerebral cortex	Cortex	Lmo3
+TEGLU18	Excitatory neurons, cerebral cortex	Cortex	Abi3bp
+TEGLU18	Excitatory neurons, cerebral cortex	Cortex	4930426D05Rik
+TEGLU18	Excitatory neurons, cerebral cortex	Cortex	Ndst4
+TEGLU18	Excitatory neurons, cerebral cortex	Cortex	Klhl14
+TEGLU18	Excitatory neurons, cerebral cortex	Cortex	Rgs14
+TEGLU19	Excitatory neurons, cerebral cortex	Cortex	Oxtr
+TEGLU19	Excitatory neurons, cerebral cortex	Cortex	Bmp3
+TEGLU21	Excitatory neurons, hippocampus CA1	Hippocampus	Nov
+TEGLU21	Excitatory neurons, hippocampus CA1	Hippocampus	4833422C13Rik
+TEGLU21	Excitatory neurons, hippocampus CA1	Hippocampus	Baiap2l1
+TEGLU4	Excitatory neurons, cerebral cortex	Cortex	Fezf2
+TEGLU4	Excitatory neurons, cerebral cortex	Cortex	RP24-134N2.1
+TEGLU4	Excitatory neurons, cerebral cortex	Cortex	Kcng1
+TEGLU24	Excitatory neurons, hippocampus CA1	Hippocampus	Spink8
+TEGLU24	Excitatory neurons, hippocampus CA1	Hippocampus	Lefty1
+TEGLU24	Excitatory neurons, hippocampus CA1	Hippocampus	Neurod6
+TEGLU23	Excitatory neurons, hippocampus CA3	Hippocampus	Lpl
+TEGLU23	Excitatory neurons, hippocampus CA3	Hippocampus	Gm26644
+TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Cyp26b1
+TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Stk32b
+TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Chrm2
+TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Tcerg1l
+TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Nell1
+MGL3	Microglia, activated	CNS	Ccl4
+MGL3	Microglia, activated	CNS	Tnf
+MGL2	Microglia, activated	CNS	Tmem119
+MGL2	Microglia, activated	CNS	Casp8
+MGL1	Microglia	CNS	P2ry12
+MGL1	Microglia	CNS	Ccr6
