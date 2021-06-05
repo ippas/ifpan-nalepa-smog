@@ -42,15 +42,13 @@ cat gene-markers.txt |
     cut -f1,3,5,7 | 
     tail +2 | 
     sed 's/\t/;/' | 
-    grep -P 'Excitatory|Inhibitory|Microglia|astrocytes' | 
     awk -F"\t" -v OFS="\t" '{print $1, $3, $2}' | 
     awk -F"\t" 'BEGIN {OFS="\t"} {gsub(" ", ";", $1); print}' | 
     awk -F"\t" 'BEGIN {OFS="\t"} {gsub(" ", ";", $2); print}' | 
     sed 's/ /\t/g' | 
     awk -F"\t" -v OFS="\t" '{print $1, $2, $3"\n"$1, $2, $4"\n"$1, $2, $5"\n"$1, $2, $6"\n"$1, $2,  $7"\n"$1, $2, $8"\n"$1, $2,  $9}' | 
     awk '$3!=""' | 
-    grep -P "Cortex|CNS|Hippocampus" | 
     sed 's/;/ /g' | 
     sed 's/ /\t/' | 
-    awk 'BEGIN{print "symbol\tdescription\tregion\tmarker"}1' > gene-markers.tsv
+    awk 'BEGIN{print "symbol\tdescription\tregion\tmarker"}1' -> gene-markers.tsv
 ```
