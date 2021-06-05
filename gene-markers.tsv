@@ -47,6 +47,9 @@ TEGLU18	Excitatory neurons, cerebral cortex	Cortex	Klhl14
 TEGLU18	Excitatory neurons, cerebral cortex	Cortex	Rgs14
 TEGLU19	Excitatory neurons, cerebral cortex	Cortex	Oxtr
 TEGLU19	Excitatory neurons, cerebral cortex	Cortex	Bmp3
+TEGLU22	Excitatory neurons, amygdala	Amygdala	Lypd1
+TEGLU22	Excitatory neurons, amygdala	Amygdala	Prss23
+TEGLU22	Excitatory neurons, amygdala	Amygdala	Kcng1
 TEGLU21	Excitatory neurons, hippocampus CA1	Hippocampus	Nov
 TEGLU21	Excitatory neurons, hippocampus CA1	Hippocampus	4833422C13Rik
 TEGLU21	Excitatory neurons, hippocampus CA1	Hippocampus	Baiap2l1
@@ -58,11 +61,664 @@ TEGLU24	Excitatory neurons, hippocampus CA1	Hippocampus	Lefty1
 TEGLU24	Excitatory neurons, hippocampus CA1	Hippocampus	Neurod6
 TEGLU23	Excitatory neurons, hippocampus CA3	Hippocampus	Lpl
 TEGLU23	Excitatory neurons, hippocampus CA3	Hippocampus	Gm26644
+DGGRC1	Granule neuroblasts, dentate gyrus	Dentate gyrus	Bhlhe22
+DGGRC1	Granule neuroblasts, dentate gyrus	Dentate gyrus	Tmem114
+DGGRC1	Granule neuroblasts, dentate gyrus	Dentate gyrus	Ntf3
+DGGRC2	Granule neurons, dentate gyrus	Dentate gyrus	C1ql2
+DGGRC2	Granule neurons, dentate gyrus	Dentate gyrus	Nr3c2
+MSN1	D1 medium spiny neurons, striatum	Striatum dorsal	Drd1
+MSN1	D1 medium spiny neurons, striatum	Striatum dorsal	Ido1
+MSN1	D1 medium spiny neurons, striatum	Striatum dorsal	Ppp1r1b
+MSN2	D2 medium spiny neurons, striatum	Striatum dorsal	Adora2a
+MSN2	D2 medium spiny neurons, striatum	Striatum dorsal	Ido1
+MSN3	D2 medium spiny neurons, striatum	Striatum ventral	Adora2a
+MSN3	D2 medium spiny neurons, striatum	Striatum ventral	Gpr83
+MSN3	D2 medium spiny neurons, striatum	Striatum ventral	Penk
+MSN4	D1 medium spiny neurons, striatum	Striatum ventral	Drd1
+MSN4	D1 medium spiny neurons, striatum	Striatum ventral	Dclk3
+MSN4	D1 medium spiny neurons, striatum	Striatum ventral	Mhrt
+MSN5	Patch D1/D2 neurons, striatum	Striatum ventral	Drd1
+MSN5	Patch D1/D2 neurons, striatum	Striatum ventral	Lrpprc
+MSN6	Matrix D1 neurons, striatum	Striatum ventral	Tac1
+MSN6	Matrix D1 neurons, striatum	Striatum ventral	Wnt2
+DETPH	Neuroblast-like, habenula	Thalamus	Pde6g
+DETPH	Neuroblast-like, habenula	Thalamus	Platr17
+DGNBL2	Granule neuroblasts, dentate gyrus	Dentate gyrus	Igfbpl1
+DGNBL2	Granule neuroblasts, dentate gyrus	Dentate gyrus	Rerg
+DGNBL1	Granule neuroblasts, dentate gyrus	Dentate gyrus	Igfbpl1
+DGNBL1	Granule neuroblasts, dentate gyrus	Dentate gyrus	Mfap4
+SZNBL	Neuronal intermidate progenitor cells	Striatum dorsal, Striatum ventral, Dentate gyrus	2810417H13Rik
+SZNBL	Neuronal intermidate progenitor cells	Striatum dorsal, Striatum ventral, Dentate gyrus	Cdca7
+OBNBL3	Neuroblasts, olfactory bulb	Olfactory bulb	Igfbpl1
+OBNBL3	Neuroblasts, olfactory bulb	Olfactory bulb	Tiam2
+OBINH1	Inhibitory neurons, olfactory bulb	Olfactory bulb	Sp9
+OBINH1	Inhibitory neurons, olfactory bulb	Olfactory bulb	Ccsap
+OBINH5	Inhibitory neurons, olfactory nulb	Olfactory bulb	Scgn
+OBINH5	Inhibitory neurons, olfactory nulb	Olfactory bulb	Cpne6
+OBINH2	Inner horizontal cell, olfactory bulb	Olfactory bulb	Shisa8
+OBINH2	Inner horizontal cell, olfactory bulb	Olfactory bulb	Fam184a
+OBINH3	Inhibitory neurons, olfactory bulb	Olfactory bulb	Gpsm1
+OBINH3	Inhibitory neurons, olfactory bulb	Olfactory bulb	Col6a1
+OBINH4	Inhibitory neurons, olfactory bulb	Olfactory bulb	Prok2
+OBINH4	Inhibitory neurons, olfactory bulb	Olfactory bulb	Trdn
+OBNBL4	Inhibitory neurons, olfactory bulb	Olfactory bulb	Nppa
+OBNBL4	Inhibitory neurons, olfactory bulb	Olfactory bulb	Nccrp1
+OBNBL5	Inhibitory neurons, olfactory bulb	Olfactory bulb	Nppa
+OBNBL5	Inhibitory neurons, olfactory bulb	Olfactory bulb	Dlx5
+OBDOP	Dopaminergic periglomerular interneuron, olfactory bulb	Olfactory bulb	Trh
+OBDOP	Dopaminergic periglomerular interneuron, olfactory bulb	Olfactory bulb	Th
+OBDOP	Dopaminergic periglomerular interneuron, olfactory bulb	Olfactory bulb	Pax6
+OBINH6	External plexiform layer interneuron, olfactory bulb	Olfactory bulb	Crh
+OBINH6	External plexiform layer interneuron, olfactory bulb	Olfactory bulb	Tcap
+OBINH6	External plexiform layer interneuron, olfactory bulb	Olfactory bulb	Pgam2
+DEINH1	Inhibitory neurons, thalamus	Thalamus	Six3
+DEINH1	Inhibitory neurons, thalamus	Thalamus	St8sia4
+DEINH1	Inhibitory neurons, thalamus	Thalamus	Esrrg
+DEINH2	Inhibitory neurons, thalamus	Thalamus	Six3
+DEINH2	Inhibitory neurons, thalamus	Thalamus	Gm2115
+DEINH2	Inhibitory neurons, thalamus	Thalamus	Esrrg
+TEINH17	Axo-axonic, cortex/hippocampus	Hippocampus,Cortex	Pthlh
+TEINH17	Axo-axonic, cortex/hippocampus	Hippocampus,Cortex	Cox6a2
+TEINH18	Basket and bistratified cells, cortex/hippocampus	Hippocampus,Cortex	Rbp4
+TEINH18	Basket and bistratified cells, cortex/hippocampus	Hippocampus,Cortex	Cox6a2
+TEINH18	Basket and bistratified cells, cortex/hippocampus	Hippocampus,Cortex	Cort
+TEINH19	Hippocamposeptal projection, cortex/hippocampus	Hippocampus,Cortex	Sst
+TEINH19	Hippocamposeptal projection, cortex/hippocampus	Hippocampus,Cortex	Ccna1
+TEINH21	Sleep-active, long-range projection interneurons, cortex/hippocampus	Hippocampus,Cortex	Crhbp
+TEINH21	Sleep-active, long-range projection interneurons, cortex/hippocampus	Hippocampus,Cortex	Tacr1
+TEINH21	Sleep-active, long-range projection interneurons, cortex/hippocampus	Hippocampus,Cortex	Chodl
+TEINH16	Ivy and MGE-derived neurogliaform cells, cortex/hippocampus	Hippocampus,Cortex	Lhx6
+TEINH16	Ivy and MGE-derived neurogliaform cells, cortex/hippocampus	Hippocampus,Cortex	Pde11a
+TEINH15	CGE-derived neurogliaform cells, cortex/hippocampus	Hippocampus,Cortex	Npy
+TEINH15	CGE-derived neurogliaform cells, cortex/hippocampus	Hippocampus,Cortex	Ptchd2
+TEINH14	CGE-derived neurogliaform cells Cxcl14+, cortex/hippocampus	Hippocampus,Cortex	Cplx3
+TEINH14	CGE-derived neurogliaform cells Cxcl14+, cortex/hippocampus	Hippocampus,Cortex	Teddm3
 TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Cyp26b1
 TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Stk32b
 TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Chrm2
 TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Tcerg1l
 TEINH20	Inhibitory interneurons, hippocampus	Hippocampus	Nell1
+TEINH13	Trilaminar cells, hippocampus	Hippocampus	Ibsp
+TEINH13	Trilaminar cells, hippocampus	Hippocampus	Cnr1
+TEINH12	Non-border Cck interneurons, cortex/hippocampus	Hippocampus,Cortex	Krt73
+TEINH12	Non-border Cck interneurons, cortex/hippocampus	Hippocampus,Cortex	Stk32b
+TEINH12	Non-border Cck interneurons, cortex/hippocampus	Hippocampus,Cortex	5330429C05Rik
+TEINH9	Non-border Cck interneurons, hippocampus	Hippocampus	Vip
+TEINH9	Non-border Cck interneurons, hippocampus	Hippocampus	Fam181b
+TEINH9	Non-border Cck interneurons, hippocampus	Hippocampus	Gm8797
+TEINH10	R-LM border Cck interneurons, cortex/hippocampus	Hippocampus,Cortex	Yjefn3
+TEINH10	R-LM border Cck interneurons, cortex/hippocampus	Hippocampus,Cortex	Hdhd3
+TEINH10	R-LM border Cck interneurons, cortex/hippocampus	Hippocampus,Cortex	Npas1
+TEINH11	R-LM border Cck interneurons, cortex/hippocampus	Hippocampus,Cortex	Col19a1
+TEINH11	R-LM border Cck interneurons, cortex/hippocampus	Hippocampus,Cortex	Slc17a8
+TEINH4	Interneuron-selective interneurons, cortex/hippocampus	Hippocampus,Cortex	Vip
+TEINH4	Interneuron-selective interneurons, cortex/hippocampus	Hippocampus,Cortex	Gm17750
+TEINH4	Interneuron-selective interneurons, cortex/hippocampus	Hippocampus,Cortex	Cxcl14
+TEINH5	Interneuron-selective interneurons, cortex/hippocampus	Hippocampus,Cortex	Vip
+TEINH5	Interneuron-selective interneurons, cortex/hippocampus	Hippocampus,Cortex	Tiam1
+TEINH8	Interneuron-selective interneurons, hippocampus	Hippocampus	Vip
+TEINH8	Interneuron-selective interneurons, hippocampus	Hippocampus	Ccne1
+TEINH8	Interneuron-selective interneurons, hippocampus	Hippocampus	Myl1
+TEINH7	Interneuron-selective interneurons, hippocampus	Hippocampus	Htr3a
+TEINH7	Interneuron-selective interneurons, hippocampus	Hippocampus	Mns1
+TEINH7	Interneuron-selective interneurons, hippocampus	Hippocampus	Npas1
+TEINH6	Interneuron-selective interneurons, cortex/hippocampus	Hippocampus,Cortex	Tac2
+TEINH6	Interneuron-selective interneurons, cortex/hippocampus	Hippocampus,Cortex	Epha7
+TECHO	Cholinergic interneurons, telencephalon	Striatum dorsal, Striatum ventral,Amygdala	Slc5a7
+TECHO	Cholinergic interneurons, telencephalon	Striatum dorsal, Striatum ventral,Amygdala	Slc17a8
+TECHO	Cholinergic interneurons, telencephalon	Striatum dorsal, Striatum ventral,Amygdala	Chat
+DECHO1	Cholinergic neurons, septal nucleus, Meissnert and diagonal band	Hypothalamus	Lhx8
+DECHO1	Cholinergic neurons, septal nucleus, Meissnert and diagonal band	Hypothalamus	Cox6a2
+DECHO1	Cholinergic neurons, septal nucleus, Meissnert and diagonal band	Hypothalamus	Slc18a3
+HBCHO4	Afferent nuclei of cranial nerves III-V	Pons	Slc5a7
+HBCHO4	Afferent nuclei of cranial nerves III-V	Pons	Irx4
+HBCHO4	Afferent nuclei of cranial nerves III-V	Pons	Slc18a3
+HBCHO3	Afferent nuclei of cranial nerves VI-XII	Medulla	Slc5a7
+HBCHO3	Afferent nuclei of cranial nerves VI-XII	Medulla	Tbx20
+HBCHO3	Afferent nuclei of cranial nerves VI-XII	Medulla	Adcyap1
+HBCHO3	Afferent nuclei of cranial nerves VI-XII	Medulla	AW551984
+HBCHO3	Afferent nuclei of cranial nerves VI-XII	Medulla	Tmem26
+HBADR	Adrenergic cell groups of the medulla	Medulla	Npff
+HBADR	Adrenergic cell groups of the medulla	Medulla	Tfap2b
+HBADR	Adrenergic cell groups of the medulla	Medulla	Chodl
+HBADR	Adrenergic cell groups of the medulla	Medulla	AW551984
+HBADR	Adrenergic cell groups of the medulla	Medulla	Pnmt
+HBNOR	Noradrenergic neurons of the medulla	Medulla	Afp
+HBNOR	Noradrenergic neurons of the medulla	Medulla	Prlh
+HBNOR	Noradrenergic neurons of the medulla	Medulla	Phox2b
+HBNOR	Noradrenergic neurons of the medulla	Medulla	Casr
+HBNOR	Noradrenergic neurons of the medulla	Medulla	Gch1
+HYPEP7	Pmch neurons, hypothalamus	Hypothalamus	Pmch
+HYPEP7	Pmch neurons, hypothalamus	Hypothalamus	Nkx2-1
+HYPEP7	Pmch neurons, hypothalamus	Hypothalamus	Otx1
+HYPEP6	Orexin-producing neurons, hypothalamus	Hypothalamus	Hcrt
+HYPEP6	Orexin-producing neurons, hypothalamus	Hypothalamus	Pdyn
+MEGLU14	Glutamatergic projection neurons of the raphe nucleus	Midbrain dorsal	Cartpt
+MEGLU14	Glutamatergic projection neurons of the raphe nucleus	Midbrain dorsal	Ucn
+MEGLU14	Glutamatergic projection neurons of the raphe nucleus	Midbrain dorsal	Chodl
+MBDOP1	Dopaminergic neurons, periaqueductal grey	Midbrain ventral	En1
+MBDOP1	Dopaminergic neurons, periaqueductal grey	Midbrain ventral	Npw
+MBDOP1	Dopaminergic neurons, periaqueductal grey	Midbrain ventral	Ret
+MBDOP2	Dopaminergic neurons, ventral midbrain (SNc, VTA)	Midbrain ventral	Slc6a3
+MBDOP2	Dopaminergic neurons, ventral midbrain (SNc, VTA)	Midbrain ventral	Chrna6
+HBSER1	Serotonergic neurons, hindbrain	Pons	Slc6a4
+HBSER1	Serotonergic neurons, hindbrain	Pons	Wfdc12
+HBSER1	Serotonergic neurons, hindbrain	Pons	Slc18a2
+HBSER2	Serotonergic neurons, hindbrain	Pons	Tph2
+HBSER2	Serotonergic neurons, hindbrain	Pons	Slc17a8
+HBSER2	Serotonergic neurons, hindbrain	Pons	Maob
+HBSER3	Serotonergic neurons, hindbrain	Pons	Gchfr
+HBSER3	Serotonergic neurons, hindbrain	Pons	Il1r1
+HBSER3	Serotonergic neurons, hindbrain	Pons	Slc18a2
+HBSER5	Serotonergic neurons, hindbrain	Pons	Tph2
+HBSER5	Serotonergic neurons, hindbrain	Pons	5031425F14Rik
+HBSER5	Serotonergic neurons, hindbrain	Pons	Slc18a2
+HBSER4	Serotonergic neurons, hindbrain	Medulla	Trh
+HBSER4	Serotonergic neurons, hindbrain	Medulla	Pgr15l
+HBSER4	Serotonergic neurons, hindbrain	Medulla	Slc18a2
+TEINH3	Inhibitory neurons, telencephalon	Pallidum	Ecel1
+TEINH3	Inhibitory neurons, telencephalon	Pallidum	Tmem215
+TEINH3	Inhibitory neurons, telencephalon	Pallidum	Peg10
+TEINH2	Inhibitory neurons, septal nucleus	Striatum dorsal, Striatum ventral	A230065H16Rik
+TEINH2	Inhibitory neurons, septal nucleus	Striatum dorsal, Striatum ventral	Zic1
+DEINH4	Inhibitory neurons, thalamus	Thalamus	Lhx8
+DEINH4	Inhibitory neurons, thalamus	Thalamus	Rmst
+DEINH4	Inhibitory neurons, thalamus	Thalamus	Dgkk
+DEINH5	Peptidergic neurons, hypothalamus	Hypothalamus	Nts
+DEINH5	Peptidergic neurons, hypothalamus	Hypothalamus	Dlk1
+HYPEP3	Peptidergic neurons, hypothalamus	Hypothalamus	Fezf1
+HYPEP3	Peptidergic neurons, hypothalamus	Hypothalamus	Baiap3
+HYPEP1	Peptidergic neurons, hypothalamus	Hypothalamus	Trh
+HYPEP1	Peptidergic neurons, hypothalamus	Hypothalamus	Ngb
+HYPEP1	Peptidergic neurons, hypothalamus	Hypothalamus	Peg10
+HYPEP2	Peptidergic neurons, hypothalamus	Hypothalamus	Ucn3
+HYPEP2	Peptidergic neurons, hypothalamus	Hypothalamus	Baiap3
+HYPEP2	Peptidergic neurons, hypothalamus	Hypothalamus	Pkib
+MEINH14	Inhibitory neurons, midbrain	Midbrain ventral	Rln3
+MEINH14	Inhibitory neurons, midbrain	Midbrain ventral	Gpx3
+DEINH6	Peptidergic neurons, hypothalamus	Hypothalamus	Otp
+DEINH6	Peptidergic neurons, hypothalamus	Hypothalamus	Cited1
+DEINH8	Inhibitory neurons, hypothalamus	Hypothalamus	Six6
+DEINH8	Inhibitory neurons, hypothalamus	Hypothalamus	Rgs16
+DEINH8	Inhibitory neurons, hypothalamus	Hypothalamus	Pkib
+DEINH7	Inhibitory neurons, hypothalamus	Hypothalamus	Avp
+DEINH7	Inhibitory neurons, hypothalamus	Hypothalamus	Rgs16
+HYPEP5	Vasopressin-producing cells, hypothalamus	Hypothalamus	Avp
+HYPEP5	Vasopressin-producing cells, hypothalamus	Hypothalamus	H2-DMb2
+HYPEP5	Vasopressin-producing cells, hypothalamus	Hypothalamus	Sim1
+HYPEP4	Oxytocin-producing cells, hypothalamus	Hypothalamus	Oxt
+HYPEP4	Oxytocin-producing cells, hypothalamus	Hypothalamus	Fam183b
+HYPEP4	Oxytocin-producing cells, hypothalamus	Hypothalamus	Sim1
+HYPEP8	Peptidergic neurons, hypothalamus	Hypothalamus	Gnrh1
+HYPEP8	Peptidergic neurons, hypothalamus	Hypothalamus	Gng8
+SCINH11	Central canal neurons, spinal cord	Spinal cord	Pkd2l1
+SCINH11	Central canal neurons, spinal cord	Spinal cord	Pdzk1ip1
+SCINH11	Central canal neurons, spinal cord	Spinal cord	Pkd1l2
+SCINH10	Inhibitory neurons, spinal cord	Spinal cord	Hoxb9
+SCINH10	Inhibitory neurons, spinal cord	Spinal cord	Tacr3
+SCINH10	Inhibitory neurons, spinal cord	Spinal cord	Pnoc
+SCINH9	Inhibitory neurons, spinal cord	Spinal cord	Serpinb1b
+SCINH9	Inhibitory neurons, spinal cord	Spinal cord	Hoxb5os
+SCINH9	Inhibitory neurons, spinal cord	Spinal cord	Skor1
+SCINH8	Inhibitory neurons, spinal cord	Spinal cord	Serpinb1b
+SCINH8	Inhibitory neurons, spinal cord	Spinal cord	Rspo3
+SCINH8	Inhibitory neurons, spinal cord	Spinal cord	Hoxb6
+SCINH8	Inhibitory neurons, spinal cord	Spinal cord	B3gat2
+SCINH8	Inhibitory neurons, spinal cord	Spinal cord	Fam159b
+SCINH7	Inhibitory neurons, spinal cord	Spinal cord	Krt17
+SCINH7	Inhibitory neurons, spinal cord	Spinal cord	Nrl
+SCINH7	Inhibitory neurons, spinal cord	Spinal cord	Hoxb6
+SCINH6	Inhibitory neurons, spinal cord	Spinal cord	Hoxb8
+SCINH6	Inhibitory neurons, spinal cord	Spinal cord	Pcsk5
+SCINH6	Inhibitory neurons, spinal cord	Spinal cord	Hoxb6
+SCINH5	Inhibitory neurons, spinal cord	Spinal cord	Serpinb1b
+SCINH5	Inhibitory neurons, spinal cord	Spinal cord	Gbx1
+SCINH5	Inhibitory neurons, spinal cord	Spinal cord	Hoxb6
+SCINH4	Inhibitory neurons, spinal cord	Spinal cord	Hoxb8
+SCINH4	Inhibitory neurons, spinal cord	Spinal cord	Kcnmb2
+SCINH4	Inhibitory neurons, spinal cord	Spinal cord	Hoxb6
+SCINH3	Inhibitory neurons, spinal cord	Spinal cord	Serpinb1b
+SCINH3	Inhibitory neurons, spinal cord	Spinal cord	Pax8
+SCINH3	Inhibitory neurons, spinal cord	Spinal cord	Glra1
+HBINH9	Inhibitory neurons, hindbrain	Medulla	Pax2
+HBINH9	Inhibitory neurons, hindbrain	Medulla	Nyap2
+HBINH9	Inhibitory neurons, hindbrain	Medulla	Hoxb6
+SCINH2	Inhibitory neurons, spinal cord	Spinal cord	Hoxb8
+SCINH2	Inhibitory neurons, spinal cord	Spinal cord	Kcnk3
+SCINH2	Inhibitory neurons, spinal cord	Spinal cord	Glra1
+SCGLU1	Excitatory neurons, spinal cord	Spinal cord	Hoxc10
+SCGLU1	Excitatory neurons, spinal cord	Spinal cord	Mab21l2
+SCGLU1	Excitatory neurons, spinal cord	Spinal cord	Glra1
+SCGLU2	Excitatory neurons, spinal cord	Spinal cord	Hoxb8
+SCGLU2	Excitatory neurons, spinal cord	Spinal cord	Card10
+SCGLU2	Excitatory neurons, spinal cord	Spinal cord	Hoxa7
+SCGLU3	Excitatory neurons, spinal cord	Spinal cord	Hoxc8
+SCGLU3	Excitatory neurons, spinal cord	Spinal cord	RP24-236C17.2
+SCGLU3	Excitatory neurons, spinal cord	Spinal cord	Hoxc9
+SCGLU4	Excitatory neurons, spinal cord	Spinal cord	Hoxb8
+SCGLU4	Excitatory neurons, spinal cord	Spinal cord	Vsig8
+SCGLU4	Excitatory neurons, spinal cord	Spinal cord	Hoxa9
+SCGLU5	Excitatory neurons, spinal cord	Spinal cord	Nmu
+SCGLU5	Excitatory neurons, spinal cord	Spinal cord	Hoxb7
+SCGLU5	Excitatory neurons, spinal cord	Spinal cord	Hoxb6
+SCGLU6	Excitatory neurons, spinal cord	Spinal cord	Grp
+SCGLU6	Excitatory neurons, spinal cord	Spinal cord	Mrap2
+SCGLU6	Excitatory neurons, spinal cord	Spinal cord	Hoxa7
+SCGLU7	Excitatory neurons, spinal cord	Spinal cord	Ucn3
+SCGLU7	Excitatory neurons, spinal cord	Spinal cord	Nppc
+SCGLU7	Excitatory neurons, spinal cord	Spinal cord	Glra1
+SCGLU8	Excitatory neurons, spinal cord	Spinal cord	Pcp2
+SCGLU8	Excitatory neurons, spinal cord	Spinal cord	Lbx1
+SCGLU8	Excitatory neurons, spinal cord	Spinal cord	Hoxb6
+SCGLU9	Excitatory neurons, spinal cord	Spinal cord	Nts
+SCGLU9	Excitatory neurons, spinal cord	Spinal cord	Pde11a
+SCGLU9	Excitatory neurons, spinal cord	Spinal cord	Prrxl1
+SCGLU10	Excitatory neurons, spinal cord	Spinal cord	Nts
+SCGLU10	Excitatory neurons, spinal cord	Spinal cord	Pla2g5
+SCGLU10	Excitatory neurons, spinal cord	Spinal cord	Glra1
+HBGLU10	Excitatory neurons, hindbrain	Medulla	Ebf2
+HBGLU10	Excitatory neurons, hindbrain	Medulla	Zmym1
+HBGLU10	Excitatory neurons, hindbrain	Medulla	Ebf1
+HBGLU3	Excitatory neurons, hindbrain	Medulla	Gpr101
+HBGLU3	Excitatory neurons, hindbrain	Medulla	Hoxc4
+HBGLU3	Excitatory neurons, hindbrain	Medulla	Ebf1
+HBGLU2	Excitatory neurons, hindbrain	Medulla	Slc17a6
+HBGLU2	Excitatory neurons, hindbrain	Medulla	Prlr
+HBGLU2	Excitatory neurons, hindbrain	Medulla	Gprasp2
+MEGLU2	Excitatory neurons, midbrain	Midbrain dorsal	Tac1
+MEGLU2	Excitatory neurons, midbrain	Midbrain dorsal	Trim66
+MEGLU2	Excitatory neurons, midbrain	Midbrain dorsal	Hap1
+MEGLU3	Excitatory neurons, midbrain	Midbrain dorsal	Cartpt
+MEGLU3	Excitatory neurons, midbrain	Midbrain dorsal	Pou4f2
+MEGLU3	Excitatory neurons, midbrain	Midbrain dorsal	Foxp2
+DEGLU5	Excitatory neurons, midbrain	Midbrain dorsal	Tcf7l2
+DEGLU5	Excitatory neurons, midbrain	Midbrain dorsal	Cabp7
+DEGLU5	Excitatory neurons, midbrain	Midbrain dorsal	Htr2c
+MEGLU1	Excitatory neurons, midbrain	Midbrain dorsal	Syt2
+MEGLU1	Excitatory neurons, midbrain	Midbrain dorsal	Oscp1
+MEGLU1	Excitatory neurons, midbrain	Midbrain dorsal	Vamp1
+MEGLU7	Excitatory neurons, midbrain	Midbrain dorsal	Tcf7l2
+MEGLU7	Excitatory neurons, midbrain	Midbrain dorsal	Coro6
+MEGLU7	Excitatory neurons, midbrain	Midbrain dorsal	Tpbg
+MEGLU8	Excitatory neurons, midbrain	Midbrain dorsal	Lhx9
+MEGLU8	Excitatory neurons, midbrain	Midbrain dorsal	Tfap2d
+MEGLU8	Excitatory neurons, midbrain	Midbrain dorsal	Adcyap1
+MEGLU9	Excitatory neurons, midbrain	Midbrain dorsal	Tcf7l2
+MEGLU9	Excitatory neurons, midbrain	Midbrain dorsal	Zfp239
+MEGLU9	Excitatory neurons, midbrain	Midbrain dorsal	Cbln2
+MEGLU10	Excitatory neurons, midbrain	Midbrain dorsal	En1
+MEGLU10	Excitatory neurons, midbrain	Midbrain dorsal	Ngb
+MEGLU10	Excitatory neurons, midbrain	Midbrain dorsal	Ndst4
+MEGLU11	Excitatory neurons, midbrain	Midbrain dorsal	En1
+MEGLU11	Excitatory neurons, midbrain	Midbrain dorsal	Sema3f
+MEGLU11	Excitatory neurons, midbrain	Midbrain dorsal	Ndst4
+MEGLU11	Excitatory neurons, midbrain	Midbrain dorsal	Inadl
+MEGLU11	Excitatory neurons, midbrain	Midbrain dorsal	Plcxd2
+MBCHO1	Cholinergic neurons, midbrain red nucleus	Midbrain ventral	Evx1os
+MBCHO1	Cholinergic neurons, midbrain red nucleus	Midbrain ventral	Gm2694
+MBCHO1	Cholinergic neurons, midbrain red nucleus	Midbrain ventral	Drd5
+MEGLU6	Excitatory neurons, midbrain	Midbrain dorsal	Npnt
+MEGLU6	Excitatory neurons, midbrain	Midbrain dorsal	Gpc3
+MEGLU6	Excitatory neurons, midbrain	Midbrain dorsal	Tmem132c
+MEGLU6	Excitatory neurons, midbrain	Midbrain dorsal	Kcnd3
+MEGLU6	Excitatory neurons, midbrain	Midbrain dorsal	Tpd52l1
+MEGLU5	Excitatory neurons, midbrain	Midbrain dorsal	Barhl1
+MEGLU5	Excitatory neurons, midbrain	Midbrain dorsal	Myh8
+MEGLU5	Excitatory neurons, midbrain	Midbrain dorsal	Rorb
+MEGLU5	Excitatory neurons, midbrain	Midbrain dorsal	Col25a1
+MEGLU5	Excitatory neurons, midbrain	Midbrain dorsal	Cdh7
+MEGLU4	Excitatory neurons, midbrain	Midbrain dorsal	Barhl1
+MEGLU4	Excitatory neurons, midbrain	Midbrain dorsal	Kcnab1
+MEGLU4	Excitatory neurons, midbrain	Midbrain dorsal	Sorcs1
+CR	Cajal-Retzius cells, hippocampus	Dentate gyrus	Ndnf
+CR	Cajal-Retzius cells, hippocampus	Dentate gyrus	Nhlh2
+DECHO2	Cholinergic neurons, habenula	Thalamus	Gm5741
+DECHO2	Cholinergic neurons, habenula	Thalamus	Gng8
+DECHO2	Cholinergic neurons, habenula	Thalamus	Lrrc55
+HBGLU1	Excitatory neurons, hindbrain	Medulla	Pou4f1
+HBGLU1	Excitatory neurons, hindbrain	Medulla	Htr5b
+HBGLU1	Excitatory neurons, hindbrain	Medulla	Rims4
+DEGLU1	Excitatory neurons, thalamus	Thalamus	Synpo2
+DEGLU1	Excitatory neurons, thalamus	Thalamus	Adamts15
+DEGLU1	Excitatory neurons, thalamus	Thalamus	Prkcd
+DEGLU2	Excitatory neurons, hypothalamus	Hypothalamus	Shox2
+DEGLU2	Excitatory neurons, hypothalamus	Hypothalamus	Aldh3b2
+DEGLU2	Excitatory neurons, hypothalamus	Hypothalamus	Ramp3
+DEGLU3	Excitatory neurons, thalamus	Thalamus	Slc17a6
+DEGLU3	Excitatory neurons, thalamus	Thalamus	Gbx2
+DEGLU3	Excitatory neurons, thalamus	Thalamus	Foxp2
+DEGLU4	Excitatory neurons, thalamus	Thalamus	Cbln1
+DEGLU4	Excitatory neurons, thalamus	Thalamus	Megf11
+DEGLU4	Excitatory neurons, thalamus	Thalamus	Cbln4
+MEINH12	Inhibitory neurons, midbrain	Midbrain dorsal	Lhx1os
+MEINH12	Inhibitory neurons, midbrain	Midbrain dorsal	Galnt14
+MEINH11	Inhibitory neurons, midbrain	Midbrain dorsal	Sox14
+MEINH11	Inhibitory neurons, midbrain	Midbrain dorsal	Dmbx1
+MEINH10	Inhibitory neurons, midbrain	Midbrain dorsal	Otx2
+MEINH10	Inhibitory neurons, midbrain	Midbrain dorsal	Gabrr2
+MEINH10	Inhibitory neurons, midbrain	Midbrain dorsal	Cdhr1
+MEINH9	Inhibitory neurons, midbrain	Midbrain dorsal	Otx2
+MEINH9	Inhibitory neurons, midbrain	Midbrain dorsal	Rd3l
+MEINH9	Inhibitory neurons, midbrain	Midbrain dorsal	Cbln4
+MEINH5	Inhibitory neurons, midbrain	Midbrain dorsal	Tnnt1
+MEINH5	Inhibitory neurons, midbrain	Midbrain dorsal	Tnni3
+MEINH5	Inhibitory neurons, midbrain	Midbrain dorsal	Gata3
+MEINH6	Inhibitory neurons, midbrain	Midbrain dorsal	Fibcd1
+MEINH6	Inhibitory neurons, midbrain	Midbrain dorsal	Mgarp
+MEINH6	Inhibitory neurons, midbrain	Midbrain dorsal	Lmo1
+MEINH6	Inhibitory neurons, midbrain	Midbrain dorsal	Vwc2
+MEINH6	Inhibitory neurons, midbrain	Midbrain dorsal	Npffr1
+MEINH7	Inhibitory neurons, midbrain	Midbrain dorsal	Pax7
+MEINH7	Inhibitory neurons, midbrain	Midbrain dorsal	Tfap2b
+MEINH7	Inhibitory neurons, midbrain	Midbrain dorsal	Cdhr1
+MEINH7	Inhibitory neurons, midbrain	Midbrain dorsal	Rnf152
+MEINH7	Inhibitory neurons, midbrain	Midbrain dorsal	Zfhx4
+MEINH4	Inhibitory neurons, midbrain	Midbrain dorsal	Lhx1os
+MEINH4	Inhibitory neurons, midbrain	Midbrain dorsal	Emx2
+MEINH3	Inhibitory neurons, midbrain	Midbrain dorsal	Tal1
+MEINH3	Inhibitory neurons, midbrain	Midbrain dorsal	Trim66
+MEINH3	Inhibitory neurons, midbrain	Midbrain dorsal	Gata3
+HBINH5	Inhibitory neurons, hindbrain	Medulla	Slc6a5
+HBINH5	Inhibitory neurons, hindbrain	Medulla	Pgr
+HBINH5	Inhibitory neurons, hindbrain	Medulla	Glra1
+MEINH2	Inhibitory neurons, midbrain	Midbrain dorsal,Midbrain ventral	Syt2
+MEINH2	Inhibitory neurons, midbrain	Midbrain dorsal,Midbrain ventral	Nrtn
+MEINH2	Inhibitory neurons, midbrain	Midbrain dorsal,Midbrain ventral	Smim17
+DEINH3	Inhibitory neurons, hypothalamus	Hypothalamus	Syt2
+DEINH3	Inhibitory neurons, hypothalamus	Hypothalamus	Nfatc2
+DEINH3	Inhibitory neurons, hypothalamus	Hypothalamus	Smim17
+TEINH1	Inhibitory neurons, pallidum	Pallidum	Lhx8
+TEINH1	Inhibitory neurons, pallidum	Pallidum	Gbx1
+TEINH1	Inhibitory neurons, pallidum	Pallidum	Elfn1
+MEINH13	Inhibitory neurons, midbrain	Midbrain ventral	Pax5
+MEINH13	Inhibitory neurons, midbrain	Midbrain ventral	Gabrq
+MEINH8	Inhibitory neurons, midbrain	Midbrain dorsal	Pax7
+MEINH8	Inhibitory neurons, midbrain	Midbrain dorsal	Gm27199
+HBINH1	Inhibitory neurons, hindbrain	Pons	Chrna2
+HBINH1	Inhibitory neurons, hindbrain	Pons	Nos1
+HBINH3	Inhibitory neurons, hindbrain	Medulla	Hoxb5
+HBINH3	Inhibitory neurons, hindbrain	Medulla	Nhlh2
+HBINH4	Inhibitory neurons, hindbrain	Medulla	Ebf3
+HBINH4	Inhibitory neurons, hindbrain	Medulla	Sema3a
+HBINH4	Inhibitory neurons, hindbrain	Medulla	Esrrg
+HBINH6	Inhibitory neurons, hindbrain	Pons	Nxph4
+HBINH6	Inhibitory neurons, hindbrain	Pons	Tmem72
+HBINH6	Inhibitory neurons, hindbrain	Pons	Gpr139
+HBINH2	Inhibitory neurons, hindbrain	Medulla	Irs4
+HBINH2	Inhibitory neurons, hindbrain	Medulla	Tfap2b
+HBINH2	Inhibitory neurons, hindbrain	Medulla	Cbln4
+HBCHO1	Cholinergic neurons, hindbrain	Medulla	St8sia6
+HBCHO1	Cholinergic neurons, hindbrain	Medulla	Adgrg2
+HBCHO1	Cholinergic neurons, hindbrain	Medulla	Mdga1
+HBCHO2	Cholinergic neurons, hindbrain	Pons	Gpx2
+HBCHO2	Cholinergic neurons, hindbrain	Pons	Defa24
+HBCHO2	Cholinergic neurons, hindbrain	Pons	AF529169
+HBGLU4	Excitatory neurons, hindbrain	Medulla	Gpx2
+HBGLU4	Excitatory neurons, hindbrain	Medulla	Olfm2
+HBGLU4	Excitatory neurons, hindbrain	Medulla	Klhl1
+HBGLU5	Excitatory neurons, hindbrain	Pons	Irx2
+HBGLU5	Excitatory neurons, hindbrain	Pons	Ly6d
+HBGLU5	Excitatory neurons, hindbrain	Pons	Fcmr
+HBGLU6	Excitatory neurons, hindbrain	Pons	Irx2
+HBGLU6	Excitatory neurons, hindbrain	Pons	Hoxc5
+HBGLU6	Excitatory neurons, hindbrain	Pons	Esrrg
+HBGLU7	Excitatory neurons, hindbrain	Pons	Irx2
+HBGLU7	Excitatory neurons, hindbrain	Pons	Mreg
+HBGLU7	Excitatory neurons, hindbrain	Pons	Esrrg
+HBGLU8	Excitatory neurons, hindbrain	Pons	Spp1
+HBGLU8	Excitatory neurons, hindbrain	Pons	Cyp2s1
+HBGLU8	Excitatory neurons, hindbrain	Pons	Nefh
+HBGLU9	Excitatory neurons, hindbrain	Medulla	Kcng4
+HBGLU9	Excitatory neurons, hindbrain	Medulla	Htr1b
+HBGLU9	Excitatory neurons, hindbrain	Medulla	Glra1
+HBINH7	Inhibitory neurons, hindbrain	Pons	Slc6a5
+HBINH7	Inhibitory neurons, hindbrain	Pons	Stac2
+HBINH7	Inhibitory neurons, hindbrain	Pons	Vamp1
+HBINH8	Inhibitory neurons, hindbrain	Medulla	Slc6a5
+HBINH8	Inhibitory neurons, hindbrain	Medulla	Lingo4
+HBINH8	Inhibitory neurons, hindbrain	Medulla	Sall3
+SCINH1	Inhibitory neurons, spinal cord	Spinal cord	Crabp1
+SCINH1	Inhibitory neurons, spinal cord	Spinal cord	Tnfrsf13c
+SCINH1	Inhibitory neurons, spinal cord	Spinal cord	Sall3
+CBINH2	Granular layer interneurons, cerebellum	Cerebellum	Slc6a5
+CBINH2	Granular layer interneurons, cerebellum	Cerebellum	Grm2
+CBINH2	Granular layer interneurons, cerebellum	Cerebellum	Lgi2
+MEINH1	Inhibitory neurons, midbrain	Midbrain ventral	Pvalb
+MEINH1	Inhibitory neurons, midbrain	Midbrain ventral	Il22
+MEINH1	Inhibitory neurons, midbrain	Midbrain ventral	Kit
+CBINH1	Molecular layer interneurons, cerebellum	Cerebellum	Pvalb
+CBINH1	Molecular layer interneurons, cerebellum	Cerebellum	Cnpy1
+CBPC	Purkinje cells	Cerebellum	Pcp2
+CBPC	Purkinje cells	Cerebellum	Slc1a6
+CBPC	Purkinje cells	Cerebellum	Car8
+CBGRC	Granule neurons, cerebellum	Cerebellum	Cbln3
+CBGRC	Granule neurons, cerebellum	Cerebellum	Gabra6
+CBNBL2	Neuroblasts, cerebellum	Cerebellum	Neurod1
+CBNBL2	Neuroblasts, cerebellum	Cerebellum	Mia
+CBNBL1	Neuroblasts, cerebellum	Pons,Medullae,Cerebellum	Sln
+CBNBL1	Neuroblasts, cerebellum	Pons,Medullae,Cerebellum	Lmx1a
+SEPNBL	Neuroblasts, septum	Pallidum	Sln
+SEPNBL	Neuroblasts, septum	Pallidum	Sost
+SEPNBL	Neuroblasts, septum	Pallidum	Ctxn3
+OBNBL1	Neuroblasts, olfactory	Olfactory bulb	Doc2g
+OBNBL1	Neuroblasts, olfactory	Olfactory bulb	Ms4a15
+OBNBL1	Neuroblasts, olfactory	Olfactory bulb	Cdhr1
+OBNBL2	Neuroblasts, olfactory bulb	Olfactory bulb	Ly6g6e
+OBNBL2	Neuroblasts, olfactory bulb	Olfactory bulb	Eomes
+ENT1	Nitrergic enteric neurons	Enteric nervous system	Gal
+ENT1	Nitrergic enteric neurons	Enteric nervous system	Moxd1
+ENT1	Nitrergic enteric neurons	Enteric nervous system	Tmem255b
+ENT2	Nitrergic enteric neurons	Enteric nervous system	Cartpt
+ENT2	Nitrergic enteric neurons	Enteric nervous system	Bglap
+ENT2	Nitrergic enteric neurons	Enteric nervous system	Ass1
+ENT3	Nitrergic enteric neurons	Enteric nervous system	Cox8b
+ENT3	Nitrergic enteric neurons	Enteric nervous system	Anxa11
+ENT3	Nitrergic enteric neurons	Enteric nervous system	Ass1
+ENT4	Cholinergic enteric neurons	Enteric nervous system	Hoxa5
+ENT4	Cholinergic enteric neurons	Enteric nervous system	Myc
+ENT4	Cholinergic enteric neurons	Enteric nervous system	Dmkn
+ENT5	Cholinergic enteric neurons	Enteric nervous system	Hoxa5
+ENT5	Cholinergic enteric neurons	Enteric nervous system	Hspb7
+ENT5	Cholinergic enteric neurons	Enteric nervous system	Dmkn
+ENT6	Cholinergic enteric neurons	Enteric nervous system	Htr2b
+ENT6	Cholinergic enteric neurons	Enteric nervous system	Tm4sf4
+ENT6	Cholinergic enteric neurons	Enteric nervous system	mt-Nd3
+ENT7	Cholinergic enteric neurons, VGLUT2	Enteric nervous system	Cckar
+ENT7	Cholinergic enteric neurons, VGLUT2	Enteric nervous system	Nxph2
+ENT7	Cholinergic enteric neurons, VGLUT2	Enteric nervous system	Gna14
+ENT8	Cholinergic enteric neurons, VGLUT2	Enteric nervous system	Ucn3
+ENT8	Cholinergic enteric neurons, VGLUT2	Enteric nervous system	Phox2a
+ENT8	Cholinergic enteric neurons, VGLUT2	Enteric nervous system	Myl1
+ENT8	Cholinergic enteric neurons, VGLUT2	Enteric nervous system	AW551984
+ENT8	Cholinergic enteric neurons, VGLUT2	Enteric nervous system	Etaa1os
+ENT9	Cholinergic enteric neurons	Enteric nervous system	P2rx2
+ENT9	Cholinergic enteric neurons	Enteric nervous system	Krt19
+ENT9	Cholinergic enteric neurons	Enteric nervous system	Myl1
+SYNOR1	Noradrenergic erector muscle neurons	Sympathetic ganglion	Dbh
+SYNOR1	Noradrenergic erector muscle neurons	Sympathetic ganglion	Procr
+SYNOR1	Noradrenergic erector muscle neurons	Sympathetic ganglion	Ntrk1
+SYNOR2	Noradrenergic neurons, sympathetic	Sympathetic ganglion	Dbh
+SYNOR2	Noradrenergic neurons, sympathetic	Sympathetic ganglion	Pi16
+SYNOR2	Noradrenergic neurons, sympathetic	Sympathetic ganglion	Hand1
+SYNOR3	Noradrenergic neurons, sympathetic	Sympathetic ganglion	Slc6a2
+SYNOR3	Noradrenergic neurons, sympathetic	Sympathetic ganglion	Arhgap36
+SYNOR3	Noradrenergic neurons, sympathetic	Sympathetic ganglion	Sctr
+SYNOR4	Noradrenergic erector muscle neurons	Sympathetic ganglion	Slc6a2
+SYNOR4	Noradrenergic erector muscle neurons	Sympathetic ganglion	Fbp2
+SYNOR4	Noradrenergic erector muscle neurons	Sympathetic ganglion	Ntrk1
+SYNOR5	Noradrenergic erector muscle neurons	Sympathetic ganglion	Areg
+SYNOR5	Noradrenergic erector muscle neurons	Sympathetic ganglion	Ltk
+SYNOR5	Noradrenergic erector muscle neurons	Sympathetic ganglion	Omp
+SYCHO2	Cholinergic neurons, sympathetic	Sympathetic ganglion	Areg
+SYCHO2	Cholinergic neurons, sympathetic	Sympathetic ganglion	C1qtnf7
+SYCHO2	Cholinergic neurons, sympathetic	Sympathetic ganglion	Slc18a3
+SYCHO1	Cholinergic neurons, sympathetic	Sympathetic ganglion	Vip
+SYCHO1	Cholinergic neurons, sympathetic	Sympathetic ganglion	Cited1
+SYCHO1	Cholinergic neurons, sympathetic	Sympathetic ganglion	Slc18a3
+PSPEP8	Peptidergic (TrpM8), DRG	Dorsal root ganglion	Rarres1
+PSPEP8	Peptidergic (TrpM8), DRG	Dorsal root ganglion	Slc34a2
+PSPEP8	Peptidergic (TrpM8), DRG	Dorsal root ganglion	Tmem54
+PSPEP7	Peptidergic (TrpM8), DRG	Dorsal root ganglion	Rarres1
+PSPEP7	Peptidergic (TrpM8), DRG	Dorsal root ganglion	Gpsm3
+PSPEP7	Peptidergic (TrpM8), DRG	Dorsal root ganglion	Prdm12
+PSPEP6	Peptidergic (TrpM8), DRG	Dorsal root ganglion	Gfra3
+PSPEP6	Peptidergic (TrpM8), DRG	Dorsal root ganglion	Angpt4
+PSPEP6	Peptidergic (TrpM8), DRG	Dorsal root ganglion	Runx1
+PSPEP5	Peptidergic (PEP1.2), DRG	Dorsal root ganglion	Trpv1
+PSPEP5	Peptidergic (PEP1.2), DRG	Dorsal root ganglion	Fam169b
+PSPEP5	Peptidergic (PEP1.2), DRG	Dorsal root ganglion	Aqp1
+PSPEP2	Peptidergic (PEP1.3), DRG	Dorsal root ganglion	Calca
+PSPEP2	Peptidergic (PEP1.3), DRG	Dorsal root ganglion	Gm13582
+PSPEP2	Peptidergic (PEP1.3), DRG	Dorsal root ganglion	Ptgir
+PSPEP4	Peptidergic (PEP1.1), DRG	Dorsal root ganglion	Calca
+PSPEP4	Peptidergic (PEP1.1), DRG	Dorsal root ganglion	6030408B16Rik
+PSPEP4	Peptidergic (PEP1.1), DRG	Dorsal root ganglion	Samsn1
+PSPEP3	Peptidergic (PEP1..4), DRG	Dorsal root ganglion	Calca
+PSPEP3	Peptidergic (PEP1..4), DRG	Dorsal root ganglion	Traf3ip3
+PSPEP3	Peptidergic (PEP1..4), DRG	Dorsal root ganglion	Prdm12
+PSPEP1	Peptidergicv (PEP2), DRG	Dorsal root ganglion	Calca
+PSPEP1	Peptidergicv (PEP2), DRG	Dorsal root ganglion	Asic3
+PSPEP1	Peptidergicv (PEP2), DRG	Dorsal root ganglion	Ptgir
+PSNF3	Neurofilament (NF2/3), DRG	Dorsal root ganglion	Trappc3l
+PSNF3	Neurofilament (NF2/3), DRG	Dorsal root ganglion	Ptgfr
+PSNF3	Neurofilament (NF2/3), DRG	Dorsal root ganglion	Ahnak2
+PSNF2	Neurofilament (NF4/5), DRG	Dorsal root ganglion	Nefm
+PSNF2	Neurofilament (NF4/5), DRG	Dorsal root ganglion	Palm3
+PSNF2	Neurofilament (NF4/5), DRG	Dorsal root ganglion	Nefh
+PSNF1	Neurofilament (NF1), DRG	Dorsal root ganglion	Ppm1j
+PSNF1	Neurofilament (NF1), DRG	Dorsal root ganglion	Tbx3os2
+PSNF1	Neurofilament (NF1), DRG	Dorsal root ganglion	Ahnak2
+PSNP1	Non-peptidergic (TH), DRG	Dorsal root ganglion	Fam19a4
+PSNP1	Non-peptidergic (TH), DRG	Dorsal root ganglion	Fbp2
+PSNP1	Non-peptidergic (TH), DRG	Dorsal root ganglion	Piezo2
+PSNP1	Non-peptidergic (TH), DRG	Dorsal root ganglion	Tlx3
+PSNP1	Non-peptidergic (TH), DRG	Dorsal root ganglion	Paqr5
+PSNP2	Non-peptidergic (NP1.1), DRG	Dorsal root ganglion	Gm7271
+PSNP2	Non-peptidergic (NP1.1), DRG	Dorsal root ganglion	Chrna6
+PSNP2	Non-peptidergic (NP1.1), DRG	Dorsal root ganglion	Ctxn3
+PSNP3	Non-peptidergic (NP1.2), DRG	Dorsal root ganglion	Mrgprd
+PSNP3	Non-peptidergic (NP1.2), DRG	Dorsal root ganglion	9530053A07Rik
+PSNP3	Non-peptidergic (NP1.2), DRG	Dorsal root ganglion	Lpar3
+PSNP4	Non-peptidergic (NP2.1), DRG	Dorsal root ganglion	Mrgpra3
+PSNP4	Non-peptidergic (NP2.1), DRG	Dorsal root ganglion	Otoa
+PSNP4	Non-peptidergic (NP2.1), DRG	Dorsal root ganglion	Calcb
+PSNP5	Non-peptidergic (NP2.2), DRG	Dorsal root ganglion	Mrgpra3
+PSNP5	Non-peptidergic (NP2.2), DRG	Dorsal root ganglion	Cpb1
+PSNP5	Non-peptidergic (NP2.2), DRG	Dorsal root ganglion	Isl2
+PSNP6	Non-peptidergic (NP3), DRG	Dorsal root ganglion	Nppb
+PSNP6	Non-peptidergic (NP3), DRG	Dorsal root ganglion	Tmem233
+PSNP6	Non-peptidergic (NP3), DRG	Dorsal root ganglion	Il31ra
+COP1	Committed oligodendrocytes cells (COP)	CNS	Neu4
+COP1	Committed oligodendrocytes cells (COP)	CNS	Brca1
+COP2	Committed oligodendrocytes cells (COP), pons/medulla specific	CNS	Tnr
+COP2	Committed oligodendrocytes cells (COP), pons/medulla specific	CNS	Rinl
+NFOL2	Newly formed oligodendrocytes (NFOL), pons/medulla specific	CNS	Tmem2
+NFOL2	Newly formed oligodendrocytes (NFOL), pons/medulla specific	CNS	Gm26834
+NFOL1	Newly formed oligodendrocytes (NFOL)	CNS	Cnksr3
+NFOL1	Newly formed oligodendrocytes (NFOL)	CNS	H2-Ab1
+MFOL2	Myelin forming oligodendrocytes (MFOL)	CNS	2210011C24Rik
+MFOL2	Myelin forming oligodendrocytes (MFOL)	CNS	Wfdc18
+MFOL2	Myelin forming oligodendrocytes (MFOL)	CNS	Tmem141
+MFOL1	Myelin forming oligodendrocytes (MFOL)	CNS	Ccp110
+MFOL1	Myelin forming oligodendrocytes (MFOL)	CNS	Snx33
+MOL1	Mature oligodendrocytes	CNS	Opalin
+MOL1	Mature oligodendrocytes	CNS	Ninj2
+MOL2	Mature oligodendrocytes, hindbrain	CNS	Hapln2
+MOL2	Mature oligodendrocytes, hindbrain	CNS	Dock5
+MOL3	Mature oligodendrocytes, spinal cord enriched (high Klk6)	CNS	Klk6
+MOL3	Mature oligodendrocytes, spinal cord enriched (high Klk6)	CNS	Nkx2-9
+CHOR	Chorid plexus epithelial cells	Medulla,Thalamus	Ttr
+CHOR	Chorid plexus epithelial cells	Medulla,Thalamus	Folr1
+CHOR	Chorid plexus epithelial cells	Medulla,Thalamus	Clic6
+HYPEN	Hypendymal cell, subcommissural organ	Subcommissural organ	Spp2
+HYPEN	Hypendymal cell, subcommissural organ	Subcommissural organ	Sspo
+EPSC	Ependymal cells, spinal cord	Spinal cord	1500015O10Rik
+EPSC	Ependymal cells, spinal cord	Spinal cord	Slc26a3
+EPSC	Ependymal cells, spinal cord	Spinal cord	1700012B09Rik
+EPEN	Ependymal cells	Brain	Ccdc153
+EPEN	Ependymal cells	Brain	Krt15
+EPMB	Ependymal cells, midbrain	Midbrain dorsal	Tnnt3
+EPMB	Ependymal cells, midbrain	Midbrain dorsal	Cfap126
+RGDG	Dentate gyrus radial glia-like cells	Dentate gyrus	E330013P04Rik
+RGDG	Dentate gyrus radial glia-like cells	Dentate gyrus	Hopx
+RGSZ	Subventricular zone radial glia-like cells	Striatum dorsal,Striatum ventral	2810459M11Rik
+RGSZ	Subventricular zone radial glia-like cells	Striatum dorsal,Striatum ventral	Gm14964
+ACTE1	Telencephalon astrocytes, fibrous	Telencephalon	Fam107a
+ACTE1	Telencephalon astrocytes, fibrous	Telencephalon	Cbs
+ACTE2	Telencephalon astrocytes, protoplasmic	Telencephalon	Ppp1r3g
+ACTE2	Telencephalon astrocytes, protoplasmic	Telencephalon	Gm11627
+ACOB	Olfactory astrocytes	Olfactory bulb	Islr
+ACOB	Olfactory astrocytes	Olfactory bulb	Slc6a11
+ACNT1	Non-telencephalon astrocytes, protoplasmic	Hypothalamus,Thalamus,Midbrain dorsal,Midbrain ventral,Pons,Medulla,Spinal cord	Slc7a10
+ACNT1	Non-telencephalon astrocytes, protoplasmic	Hypothalamus,Thalamus,Midbrain dorsal,Midbrain ventral,Pons,Medulla,Spinal cord	Mfsd2a
+ACNT2	Non-telencephalon astrocytes, fibrous	Hypothalamus,Thalamus,Midbrain dorsal,Midbrain ventral,Pons,Medulla,Spinal cord	Agt
+ACNT2	Non-telencephalon astrocytes, fibrous	Hypothalamus,Thalamus,Midbrain dorsal,Midbrain ventral,Pons,Medulla,Spinal cord	Apoc1
+ACMB	Dorsal midbrain Myoc-expressing astrocyte-like	Midbrain dorsal	Myoc
+ACMB	Dorsal midbrain Myoc-expressing astrocyte-like	Midbrain dorsal	Gfap
+ACBG	Bergmann glia	Cerebellum	Gdf10
+ACBG	Bergmann glia	Cerebellum	Timp4
+OEC	Olfactory ensheathing cells	Olfactory bulb	Prss56
+OEC	Olfactory ensheathing cells	Olfactory bulb	Mgst1
+OPC	Oligodendrocytes precursor cells	CNS	Pdgfra
+OPC	Oligodendrocytes precursor cells	CNS	C1ql1
+SCHW	Schwann cells	Dorsal root ganglion	Mpz
+SCHW	Schwann cells	Dorsal root ganglion	Ncmap
+SATG2	Satellite glia	Dorsal root ganglion,Sympathetic ganglion	Fbln2
+SATG2	Satellite glia	Dorsal root ganglion,Sympathetic ganglion	Ceacam10
+SATG1	Satellite glia, proliferating	Dorsal root ganglion	Cdc20
+SATG1	Satellite glia, proliferating	Dorsal root ganglion	Tex40
+ENTG1	Enteric glia, proliferating	Enteric nervous system	Cenpf
+ENTG1	Enteric glia, proliferating	Enteric nervous system	Hist1h2ap
+ENTG1	Enteric glia, proliferating	Enteric nervous system	Cks2
+ENTG2	Enteric glia	Enteric nervous system	Hspa1a
+ENTG2	Enteric glia	Enteric nervous system	Casp4
+ENTG3	Enteric glia	Enteric nervous system	Hspa1a
+ENTG3	Enteric glia	Enteric nervous system	Parp14
+ENTG4	Enteric glia	Enteric nervous system	Tax1bp3
+ENTG4	Enteric glia	Enteric nervous system	4930589L23Rik
+ENTG5	Enteric glia	Enteric nervous system	Fam198b
+ENTG5	Enteric glia	Enteric nervous system	4930589L23Rik
+ENTG5	Enteric glia	Enteric nervous system	Olfml2a
+ENTG5	Enteric glia	Enteric nervous system	Scn7a
+ENTG5	Enteric glia	Enteric nervous system	Col18a1
+ENTG6	Enteric glia	Enteric nervous system	Ifi27l2a
+ENTG6	Enteric glia	Enteric nervous system	Lbp
+ENTG6	Enteric glia	Enteric nervous system	H2-Q7
+ENTG7	Enteric glia	Enteric nervous system	Col12a1
+ENTG7	Enteric glia	Enteric nervous system	Cpxm2
+ENMFB	Enteric mesothelial fibroblasts	Enteric nervous system	Dpt
+ENMFB	Enteric mesothelial fibroblasts	Enteric nervous system	Spon2
+ENMFB	Enteric mesothelial fibroblasts	Enteric nervous system	Lum
+ABC	Vascular leptomeningeal cells	CNS	Mgp
+ABC	Vascular leptomeningeal cells	CNS	Slc47a1
+ABC	Vascular leptomeningeal cells	CNS	Dapl1
+VLMC2	Vascular leptomeningeal cells	CNS	Slc6a13
+VLMC2	Vascular leptomeningeal cells	CNS	Ptgds
+VLMC1	Vascular leptomeningeal cells	CNS	Dcn
+VLMC1	Vascular leptomeningeal cells	CNS	Fam180a
+VECA	Vascular endothelial cells, arterial	CNS	Igf2
+VECA	Vascular endothelial cells, arterial	CNS	Sema3g
+VECA	Vascular endothelial cells, arterial	CNS	Gkn3
+PER3	Pericytes	CNS	Kcnj8
+PER3	Pericytes	CNS	Anpep
+VSMCA	Vascular smooth muscle cells, arterial	CNS	Acta2
+VSMCA	Vascular smooth muscle cells, arterial	CNS	Mustn1
+PER1	Pericytes	CNS	Higd1b
+PER1	Pericytes	CNS	Degs2
+PER1	Pericytes	CNS	Ndufa4l2
+PER1	Pericytes	CNS	Rgs5
+PER1	Pericytes	CNS	Flt1
+PER2	Pericytes, possibly mixed with VENC	CNS	Ecscr
+PER2	Pericytes, possibly mixed with VENC	CNS	Tbxa2r
+PER2	Pericytes, possibly mixed with VENC	CNS	Cd93
+VECC	Vascular endothelial cells, capillary	CNS	Ecscr
+VECC	Vascular endothelial cells, capillary	CNS	Gadd45a
+VECV	Vascular endothelial cells, venous	CNS	Ly6c1
+VECV	Vascular endothelial cells, venous	CNS	Scgb3a1
+PVM1	Perivascular macrophages	CNS	Pf4
+PVM1	Perivascular macrophages	CNS	Cd74
+PVM2	Perivascular macrophages, activated	CNS	Pf4
+PVM2	Perivascular macrophages, activated	CNS	Cxcl2
 MGL3	Microglia, activated	CNS	Ccl4
 MGL3	Microglia, activated	CNS	Tnf
 MGL2	Microglia, activated	CNS	Tmem119
