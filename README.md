@@ -31,7 +31,6 @@ cat sample-list.txt | head -6 | xargs -I {} docker run -d --rm -v $PWD:/data oct
 ```
 
 
-### Fragments, mateusz analysis
 
 Preparation of marker genes:
 
@@ -53,5 +52,17 @@ cat gene-markers.txt |
     sed 's/ /\t/' | 
     sed 's/_/\t/g' | 
     awk 'BEGIN{print "symbol\tdescription\tregion\tmarker\tlocation"}1' -> gene-markers.tsv
-
+    
+    
 ```
+
+Analysis in R
+analysis.R executes:
+- load the necessary data from files: [full-sample-info.csv](),  [genes.fpkm_table](), [mart_export.txt]()
+- performs fpkm data transformations log<sub>2</sub>(x + 1) 
+- performs a two-way ANOVA on fpkm.log and execute fdr on p-value
+- writes sample information to [full-sample-info.csv](), fpkm data after transforming to [fpkms-log.csv]() and results from two-way ANOVA to [two-way-anova-results.csv]()
+- 
+
+
+
