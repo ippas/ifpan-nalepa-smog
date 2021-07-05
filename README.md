@@ -64,5 +64,19 @@ analysis.R executes:
 - writes sample information to [full-sample-info.csv](), fpkm data after transforming to [fpkms-log.csv]() and results from two-way ANOVA to [two-way-anova-results.csv]()
 - 
 
+![](heatmap-two-way-ANOVA-interaction.png)
+
+![](heatmap-two-way-ANOVA-group.effect.png)
+
+![](heatmap-two-way-ANOVA-treatment.effect.png)
+
+![](heatmap-ANOVA-interaction-gene.markers.png)
+
+![](heatmap-ANOVA-group.effect-gene.markers.png)
+
+![](heatmap-ANOVA-treatment.effect-gene.markers.png)
+
+![](heatmap-second-stage-ANOVA-treatment.effect.png)
+
 
 
