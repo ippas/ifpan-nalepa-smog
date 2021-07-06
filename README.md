@@ -62,7 +62,7 @@ analysis.R executes:
 - performs fpkm data transformations log<sub>2</sub>(x + 1) 
 - performs a two-way ANOVA on fpkm.log and execute fdr on p-value
 - writes sample information to [full-sample-info.csv](), fpkm data after transforming to [fpkms-log.csv]() and results from two-way ANOVA to [two-way-anova-results.csv]()
-- 
+- creates heatmaps for genes from the interaction of group effect and treatment effect
 
 ![](heatmap-two-way-ANOVA-interaction.png)
 
@@ -70,13 +70,24 @@ analysis.R executes:
 
 ![](heatmap-two-way-ANOVA-treatment.effect.png)
 
+- after performing two-way ANOVA, filters genes with fdr < 0.05 for group effect
+- 
+
+![](heatmap-second-stage-ANOVA-treatment.effect.png)
+
+
+- loads the [gene-markers.tsv]() with a marker genes
+- for makrer genes performs statistics with correction of fdr on p-value from the interaction of group effect and treatment effect
+- creates heatmaps for genes from the interaction of group effect and treatment effect
+
 ![](heatmap-ANOVA-interaction-gene.markers.png)
 
 ![](heatmap-ANOVA-group.effect-gene.markers.png)
 
 ![](heatmap-ANOVA-treatment.effect-gene.markers.png)
 
-![](heatmap-second-stage-ANOVA-treatment.effect.png)
+
+
 
 
 
