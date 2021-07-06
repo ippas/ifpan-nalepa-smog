@@ -70,11 +70,11 @@ analysis.R executes:
 
 ![](heatmap-two-way-ANOVA-treatment.effect.png)
 
-- after performing two-way ANOVA, filters genes with fdr < 0.05 for group effect
-- 
+- after performing two-way ANOVA, filters genes with fdr < 0.05 for group effect, then creates a heatmap for genes for which p-value < 0.05 from the group effect
 
 ![](heatmap-second-stage-ANOVA-treatment.effect.png)
 
+- For the resulting four lists of genes, it downoloads information from databases: WikiPahtway_2021_Human, KEGG_2021_Human, GO_Biological_Process_2021, GO_Molecular_Function_2018, Descartes_Cell_Types_and_Tissue_2021. The data is saved according to: 
 
 - loads the [gene-markers.tsv]() with a marker genes
 - for makrer genes performs statistics with correction of fdr on p-value from the interaction of group effect and treatment effect
@@ -85,6 +85,9 @@ analysis.R executes:
 ![](heatmap-ANOVA-group.effect-gene.markers.png)
 
 ![](heatmap-ANOVA-treatment.effect-gene.markers.png)
+
+
+
 
 
 
