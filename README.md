@@ -34,7 +34,7 @@ cat sample-list.txt | head -6 | xargs -I {} docker run -d --rm -v $PWD:/data oct
 
 Preparation of marker genes:
 
-The marker genes were [taken from](http://mousebrain.org/celltypes/?fbclid=IwAR2uLbp0fYm2Eaet7l_vz9OYeoTIV_qByP6eEddBvwIx6-55GKGnHu5TaiQ), and extract need information:
+The marker genes were [taken from](http://mousebrain.org/celltypes/?fbclid=IwAR2uLbp0fYm2Eaet7l_vz9OYeoTIV_qByP6eEddBvwIx6-55GKGnHu5TaiQ), extract need information and save to [gene-marers.tsv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/gene-markers.tsv):
 
 ``` 
 cat gene-markers.txt | 
@@ -52,16 +52,14 @@ cat gene-markers.txt |
     sed 's/ /\t/' | 
     sed 's/_/\t/g' | 
     awk 'BEGIN{print "symbol\tdescription\tregion\tmarker\tlocation"}1' -> gene-markers.tsv
-    
-    
 ```
 
 Analysis in R
 analysis.R executes:
-- load the necessary data from files: [full-sample-info.csv](),  [genes.fpkm_table](), [mart_export.txt]()
+- load the necessary data from files: [full-sample-info.csv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/full-sample-info.csv),  [genes.fpkm_table](https://github.com/ippas/ifpan-nalepa-smog/blob/main/genes.fpkm_table), [mart_export.txt](https://github.com/ippas/ifpan-nalepa-smog/blob/main/mart_export.txt)
 - performs fpkm data transformations log<sub>2</sub>(x + 1) 
 - performs a two-way ANOVA on fpkm.log and execute fdr on p-value
-- writes sample information to [full-sample-info.csv](), fpkm data after transforming to [fpkms-log.csv]() and results from two-way ANOVA to [two-way-anova-results.csv]()
+- writes sample information to [full-sample-info.csv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/full-sample-info.csv), fpkm data after transforming to [fpkms-log.csv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/fpkms-log.csv) and results from two-way ANOVA to [two-way-anova-results.csv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/two-way-anova-results.csv)
 - creates heatmaps for genes from the interaction of group effect and treatment effect
 
 ![](heatmap-two-way-ANOVA-interaction.png)
@@ -74,7 +72,7 @@ analysis.R executes:
 
 ![](heatmap-second-stage-ANOVA-treatment.effect.png)
 
-- For the resulting four lists of genes, it downoloads information from databases: WikiPahtway_2021_Human, KEGG_2021_Human, GO_Biological_Process_2021, GO_Molecular_Function_2018, Descartes_Cell_Types_and_Tissue_2021. The data is saved according to: 
+- For the resulting four lists of genes, it downoloads information from databases: WikiPahtway_2021_Human, KEGG_2021_Human, GO_Biological_Process_2021, GO_Molecular_Function_2018, Descartes_Cell_Types_and_Tissue_2021. The data is saved according to: [enrichR-gene-interaction.tsv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/enrichR-gene-interaction.tsv), [enrichR-gene-group-effect.tsv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/enrichR-gene-group-effect.tsv), [enrichR-gene-treatment-effect.tsv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/enrichR-gene-interaction.tsv), [enrichR-gene-group-effect-secondstage.tsv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/enrichR-gene-group-effect-secondstage.tsv)
 
 - loads the [gene-markers.tsv]() with a marker genes
 - for makrer genes performs statistics with correction of fdr on p-value from the interaction of group effect and treatment effect
