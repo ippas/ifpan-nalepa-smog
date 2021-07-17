@@ -54,7 +54,7 @@ cat gene-markers.txt |
     awk 'BEGIN{print "symbol\tdescription\tregion\tmarker\tlocation"}1' -> gene-markers.tsv
 ```
 
-Analysis in R version 3.4.4
+Analysis in R version 3.4.4.
 [analysis.R](https://github.com/ippas/ifpan-nalepa-smog/blob/main/analysis.R) executes:
 - load the necessary data from files: [full-sample-info.csv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/full-sample-info.csv),  [genes.fpkm_table](https://github.com/ippas/ifpan-nalepa-smog/blob/main/genes.fpkm_table), [mart_export.txt](https://github.com/ippas/ifpan-nalepa-smog/blob/main/mart_export.txt)
 - performs fpkm data transformations log<sub>2</sub>(x + 1) 
@@ -85,7 +85,7 @@ Analysis in R version 3.4.4
 ![](heatmap-ANOVA-treatment.effect-gene.markers.png)
 
 
-Analysis using the edgeR package in R version 3.6.3
+Analysis using the edgeR package in R version 3.6.3.
 [edgeR-analysis.R](https://github.com/ippas/ifpan-nalepa-smog/blob/main/edgeR-analysis.R) executes:
 - load the necessary data from files: [full-sample-info.csv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/full-sample-info.csv),  [genes.fpkm_table](https://github.com/ippas/ifpan-nalepa-smog/blob/main/genes.fpkm_table), [mart_export.txt](https://github.com/ippas/ifpan-nalepa-smog/blob/main/mart_export.txt)
 - performs statistics usung the [edgeR package](https://www.bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf)
