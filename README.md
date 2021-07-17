@@ -55,7 +55,7 @@ cat gene-markers.txt |
 ```
 
 Analysis in R version 3.4.4
-analysis.R executes:
+[analysis.R](https://github.com/ippas/ifpan-nalepa-smog/blob/main/analysis.R) executes:
 - load the necessary data from files: [full-sample-info.csv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/full-sample-info.csv),  [genes.fpkm_table](https://github.com/ippas/ifpan-nalepa-smog/blob/main/genes.fpkm_table), [mart_export.txt](https://github.com/ippas/ifpan-nalepa-smog/blob/main/mart_export.txt)
 - performs fpkm data transformations log<sub>2</sub>(x + 1) 
 - performs a two-way ANOVA on fpkm.log and execute fdr on p-value
@@ -86,6 +86,7 @@ analysis.R executes:
 
 
 Analysis using the edgeR package in R version 3.6.3
+[edgeR-analysis.R](https://github.com/ippas/ifpan-nalepa-smog/blob/main/edgeR-analysis.R) executes:
 - load the necessary data from files: [full-sample-info.csv](https://github.com/ippas/ifpan-nalepa-smog/blob/main/full-sample-info.csv),  [genes.fpkm_table](https://github.com/ippas/ifpan-nalepa-smog/blob/main/genes.fpkm_table), [mart_export.txt](https://github.com/ippas/ifpan-nalepa-smog/blob/main/mart_export.txt)
 - performs statistics usung the [edgeR package](https://www.bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf)
 - creates heatmaps for genes from the interaction of group effect and treatment effect
