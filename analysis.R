@@ -270,8 +270,8 @@ dbs <-  c("WikiPathway_2021_Human",
 # interaction
 enrichr({fpkm$gene.name[match(rownames(filter(results, group.treatment.p < 0.01) ), rownames(fpkm))] %>% 
     as.vector()}, dbs) %>% 
-  bind_rows(., .id = "database.name") %>% 
-  select(Term, Genes, P.value, Adjusted.P.value) %>%
+  bind_rows(., .id = "database.name") %>% head
+  select(database.name, Term, Genes, P.value, Adjusted.P.value) %>%
   write_tsv(., "/home/ifpan/projects/ifpan-nalepa-smog/analysis/enrichR-gene-interaction.tsv")
   
 
@@ -279,7 +279,7 @@ enrichr({fpkm$gene.name[match(rownames(filter(results, group.treatment.p < 0.01)
 enrichr({fpkm$gene.name[match(rownames(filter(results, group.fdr < 0.01) ), rownames(fpkm))] %>% 
     as.vector()}, dbs) %>%
   bind_rows(., .id = "database.name") %>% 
-  select(Term, Genes, P.value, Adjusted.P.value) %>%
+  select(database.name, Term, Genes, P.value, Adjusted.P.value) %>%
   write_tsv(., "/home/ifpan/projects/ifpan-nalepa-smog/analysis/enrichR-gene-group-effect.tsv")
 
 
@@ -287,13 +287,13 @@ enrichr({fpkm$gene.name[match(rownames(filter(results, group.fdr < 0.01) ), rown
 enrichr({fpkm$gene.name[match(rownames(filter(results, treatment.fdr < 0.01) ), rownames(fpkm))] %>% 
     as.vector()}, dbs) %>%
   bind_rows(., .id = "database.name") %>% 
-  select(Term, Genes, P.value, Adjusted.P.value) %>%
+  select(database.name, Term, Genes, P.value, Adjusted.P.value) %>%
   write_tsv(., "/home/ifpan/projects/ifpan-nalepa-smog/analysis/enrichR-gene-treatment-effect.tsv")
 
 # enrichR; secondstage
 enrichr({filter(results.twostage, treatment.p < 0.05)  %>% .[, 1] %>% as.character()}, dbs) %>%
   bind_rows(., .id = "database.name") %>% 
-  select(Term, Genes, P.value, Adjusted.P.value) %>%
+  select(database.name, Term, Genes, P.value, Adjusted.P.value) %>%
   write_tsv(., "/home/ifpan/projects/ifpan-nalepa-smog/analysis/enrichR-gene-group-effect-secondstage.tsv")
 
 
