@@ -270,7 +270,7 @@ dbs <-  c("WikiPathway_2021_Human",
 # interaction
 enrichr({fpkm$gene.name[match(rownames(filter(results, group.treatment.p < 0.01) ), rownames(fpkm))] %>% 
     as.vector()}, dbs) %>% 
-  bind_rows(., .id = "database.name") %>% head
+  bind_rows(., .id = "database.name") %>% 
   select(database.name, Term, Genes, P.value, Adjusted.P.value) %>%
   write_tsv(., "/home/ifpan/projects/ifpan-nalepa-smog/analysis/enrichR-gene-interaction.tsv")
   
