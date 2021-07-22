@@ -1,4 +1,8 @@
-# Instillation and loading of packages
+# Script written in R 3.6.3
+
+########################################
+# Instillation and loading of packages #
+########################################
 if (!requireNamespace("BiocManager", quietly = TRUE)) 
   install.packages("BiocManager") 
 BiocManager::install(version = "3.9") 
